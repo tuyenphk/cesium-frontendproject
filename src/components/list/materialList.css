@@ -1,0 +1,26 @@
+.materialList {
+    display: flex;
+    border: 1px solid white;
+    padding-top: -50px;
+}
+
+.materialList:hover {
+    background-color: #000042;
+}
+
+.materialList-left {
+    flex: 0.2;
+    margin: 15px;
+}
+
+.materialList-right {
+    flex: 0.8;
+}
+
+.materialList-right > p {
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: -10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

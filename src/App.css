@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.app {
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appMaterials {
+    background-color: #24242B;
+    border: 1px solid #212121;
+    margin: 80px;
+    padding-bottom: 50px;
+    position: block;
+    min-height: 60vh;
+    max-width: 200vh;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.appMaterials > h1 {
+    padding-top: 50px;
+    padding-left: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.appMaterials-button {
+    margin-left: 140px;
+    margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.appMaterials-info {
+    display: flex;
+    flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.appMaterials-list {
+    border: 1px solid white;
+    margin-left: 150px;
+    margin-top: 20px;
+    max-width: 50vw;
+    min-height: 40vh;
+    padding: 0px;
+    flex: 0.3;
+    background-color: #212121;
+}
+
+.appMaterials-detail {
+    border: 1px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 450px;
+    max-width: 30vw;
+    min-height: 30px;
+    padding: 20px;
+    flex: 0.7;
+    background-color: #212121;
+}
+
+.appMaterials > p {
+    margin-left: 150px;
+    margin-top: 30px;
 }
